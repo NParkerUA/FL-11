@@ -1,0 +1,333 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0b192f;
+    width: 71%;
+    margin: 0 auto;
+}
+
+.p1 {
+    background: #B71757;
+}
+
+.p2 {
+    background: #0D7E71;
+}
+
+.p3 {
+    background: #b1660e;
+}
+
+.p4 {
+    background: #d12767;
+}
+
+.p5 {
+    background: #2d95bb;
+}
+
+header {
+    justify-content: space-between;
+    background: #162b4d;
+    align-items: center;
+    display: flex;
+}
+
+    header .hIco {
+        color: white;
+        display: none;
+    }
+
+    header .hLogo {
+        color: white;
+        font-size: 2.5vw;
+        font-weight: lighter;
+        padding: 2.1%;
+    }
+
+.hLogo span {
+    color: #d12767;
+}
+
+.nav {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+}
+
+    .nav a {
+        height: 100%;
+        text-decoration: none;
+        font-size: 1.46vw;
+        color: white;
+        padding: 0 1.95vw;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+    }
+
+        .nav a:hover {
+            background: #0b192f;
+        }
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 2.1% 0;
+}
+
+section {
+    width: 76%;
+    margin-right: 2.1%;
+    color: white;
+}
+    section h6 {
+        color: #b8b8b821;
+        flex: initial;        
+    }
+
+.article:nth-of-type(odd) {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    position: relative;
+}
+
+.article:nth-of-type(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    text-align: end;
+    position: relative;
+}
+
+.p1 div.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #b7175777;
+    display: none;
+    z-index: 2;    
+}
+
+.p2 div.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0d7e7177;
+    display: none;
+    z-index: 2;
+}
+
+.p3 div.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #b1650e77;
+    display: none;
+    z-index: 2;
+}
+
+.p4 div.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d1276877;
+    display: none;
+    z-index: 2;
+}
+
+.p5 div.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2d95bb77;
+    display: none;
+    z-index: 2;
+}
+
+article:hover .hover {
+    display: block;
+    cursor: pointer;
+}
+
+article .image {
+    flex-basis: 51%;
+}
+
+.article .artTxt {
+    flex-basis: 33%;
+}
+
+.artTxt {
+    padding: 4.5%;
+}
+
+    .Txt h2 {
+        font-weight: lighter;
+        margin: 0%;
+    }
+
+    .Txt p {
+        font-size: 81%;
+        font-weight: lighter;
+    }
+    
+.time {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+    .time h2 {
+        font-weight: lighter;
+        margin: 0%;
+    }
+
+    .time p {
+        font-size: 81%;
+        font-weight: lighter;
+    }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.artTxt + div {
+    padding: 3%;
+}
+
+.artImg {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div.asideArt {
+    background-color: white;
+    margin-bottom: 11%;
+}
+
+div.asideTxt {
+    padding: 11%;
+}
+
+.asideTxt h3 {
+    font-weight: lighter;
+}
+
+.asideTxt p {
+    font-size: 81%;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: #162b4d;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    footer .name {
+        width: 16%;
+    }
+
+    footer .copy {
+        width: 76%;
+    }
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 96%;
+    }
+
+    header .hIco {
+        display: inline-block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .article:nth-of-type(odd), .article:nth-of-type(even), .artImg {
+        flex-direction: column;
+        justify-items: center;
+        text-align: start;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    section {
+        width: 56%;
+    }
+
+    aside {
+        width: 44%;
+    }
+    
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 96%;
+    }
+
+    header .hIco {
+        display: inline-block;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    main {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .article:nth-of-type(odd), .article:nth-of-type(even), .artImg {
+        flex-direction: column;
+        justify-items: center;
+        text-align: start;
+    }
+        
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    div.asideArt {
+        margin-bottom: 5%;
+    }
+
+    .article:nth-child(2) .article h3 {
+        left: 0;
+    }
+}

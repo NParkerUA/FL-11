@@ -105,11 +105,12 @@ function battle(fighter1, fighter2) {
   }
 }
 
-let jack = new Fighter({name: 'Jack', dmg: 20, agility: 20, hp: 150});
-let harold = new Fighter({name: 'Harold', dmg: 25, agility: 30, hp: 130});
+let jack = new Fighter({name: 'Jack', dmg: 25, agility: 35, hp: 160});
+let harold = new Fighter({name: 'Harold', dmg: 30, agility: 15, hp: 135});
 
 // console.log(battle(jack, harold))
 // console.log(jack.logCombatHistory());
 // console.log(harold.logCombatHistory());
 // console.log(jack.get_Health());
 // console.log(harold.get_Health());
+// console.log(battle(jack, harold))

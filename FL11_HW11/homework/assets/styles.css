@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.form {
+    display: flex;
+}
+
+.warningHeader{
+    text-align: center;
+    color: #ff0000;
+
+}
+
+.icons_size{
+    font-size: 39px;
+}
+
+.addBtn {
+    background: none;
+    border: none;
+}
+
+.addBtn:hover{
+    cursor: pointer;
+	}
+
+.liSpan{
+    font-size: 25px;    
+}
+
+.doneButton {
+    margin: 4px;
+    color: #00ced1; 
+    background: none;
+    border: none;
+
+}
+
+.doneButton:hover{
+    cursor: pointer;
+    }
+    
+.hidden {
+    display: none;
+}
+
+
+.editButton {
+    margin: 4px;
+    color: #00ced1; 
+    background: none;
+    border: none;
+  
+}
+
+.editButton:hover{
+    cursor: pointer;
+    }
+    
+
+.deleteButton {
+    margin: 4px;
+    color: #00ced1; 
+    float: right;
+    background: none;
+    border: none;
+
+}
+.saveButton{
+    margin: px;
+    color: #00ced1; 
+    background: none;
+    border: none;
+
+}
+
+.mainHeader {
+    margin: 20px;
+    text-align: center;
+    color: #00ced1;
+    
+}
+
+.over{
+    border: 2px dashed #000;
+}
+
+.deleteButton:hover{
+	cursor: pointer;
+}
+
+.inputField{
+    width: 94%;
+    height: 55px;
+    border: 2px solid rgb(179, 179, 179);
+    font-size: 22px;
+    margin: 22px;
+    padding: 22px;
+
+}
+
+.itemList{
+    color: #00ced1; 
+    list-style: none;
+}
+
+.editInput{
+    width: 50%;
+    height: 30px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#list{
+   
+    position: absolute;
+    width: 100%;
+}
+
+.icons_sizeform {
+    font-size: 70px;
+}
+
+

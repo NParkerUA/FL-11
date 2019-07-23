@@ -10,7 +10,6 @@
 .warningHeader{
     text-align: center;
     color: #ff0000;
-
 }
 
 .icons_size{
@@ -35,7 +34,6 @@
     color: #00ced1; 
     background: none;
     border: none;
-
 }
 
 .doneButton:hover{
@@ -51,8 +49,7 @@
     margin: 4px;
     color: #00ced1; 
     background: none;
-    border: none;
-  
+    border: none;  
 }
 
 .editButton:hover{
@@ -66,21 +63,19 @@
     float: right;
     background: none;
     border: none;
-
 }
+
 .saveButton{
     margin: px;
     color: #00ced1; 
     background: none;
     border: none;
-
 }
 
 .mainHeader {
     margin: 20px;
     text-align: center;
-    color: #00ced1;
-    
+    color: #00ced1;    
 }
 
 .over{

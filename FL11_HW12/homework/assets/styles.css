@@ -1,0 +1,91 @@
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+  }
+  
+  #root {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  body {    
+    text-align: center;
+  } 
+  
+  input {
+    width: 300px;
+    height: 25px;
+    line-height: 30px;
+    padding: 0 20px;
+  }
+
+  button {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  h1 {
+    margin: 20px;
+  }
+  
+  ul {
+
+    list-style: none;
+    margin: 0 auto;
+    width: 600px;    
+  }
+  
+  ul li {
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+    display: flex;
+    padding: 25px;
+  }
+  
+  ul li span {
+    width: 80%;
+    text-align: left;
+  }
+
+  ul li img {
+    width: 30px;
+    flex-basis: 15px;
+  }
+  
+  ul li img:first-child {
+    order: 1;
+  }
+  
+  ul li span {
+    order: 2;
+  }
+  
+  ul li img:last-child {
+    order: 3;
+  }
+
+  .messageErr {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background: red;
+    color: white;
+    text-align: left;
+  }
+  
+  .addScr,
+  .modifyScr {
+    display: none;
+  }
